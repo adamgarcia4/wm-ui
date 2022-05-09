@@ -1,12 +1,8 @@
 
 Barak's leaving the original repo link here:
-<a href="https://github.com/thenriquedb/storybook-sass-typescript-boilerplate" target="_blank"><img src="https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg"></a>
-
-# Boilerplate to use with Storybook, Sass, TypeScript and JEST
-<a href="https://github.com/storybooks/storybook" target="_blank"><img src="https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg"></a>
+<a href="https://github.com/thenriquedb/storybook-sass-typescript-boilerplate" target="_blank"></a>
 
 ### What is insided?
-*  [TypeScript](https://www.typescriptlang.org/)
 *  [Sass](https://sass-lang.com/)
 *  [classnames](https://www.npmjs.com/package/classnames)
 *  [Storybook](https://storybook.js.org/)
@@ -15,9 +11,7 @@ Barak's leaving the original repo link here:
 *  [Storybook Deployer](https://github.com/storybookjs/storybook-deployer)
 
 ### How to use
-```shell
-yarn && yarn storybook
-# or npm install && npm run storybook  
+```npm install && npm run storybook  
 ```
 
 ### Scripts
