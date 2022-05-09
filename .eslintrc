@@ -60,7 +60,7 @@
       "no-alert": "off",
       "react/jsx-filename-extension": [
         "error",
-        { "extensions": [".js", ".tsx"] }
+        { "extensions": [".js", ".jsx"] }
       ],
       "react/jsx-props-no-spreading": "off",
       "react/no-array-index-key": "off",
@@ -72,7 +72,7 @@
       },
     "overrides": [
       {
-        "files": ["*.ts", "*.tsx"],
+        "files": ["*.js", "*.jsx"],
         "parserOptions": {
           "project": ["tsconfig.json"]
         }
