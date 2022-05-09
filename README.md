@@ -1,3 +1,7 @@
+
+Barak's leaving the original repo link here:
+<a href="https://github.com/thenriquedb/storybook-sass-typescript-boilerplate" target="_blank"><img src="https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg"></a>
+
 # Boilerplate to use with Storybook, Sass, TypeScript and JEST
 <a href="https://github.com/storybooks/storybook" target="_blank"><img src="https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg"></a>
 
