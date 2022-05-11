@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Calendar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CompleteFrame" transform="translate(-643.000000, -160.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="down-chevron" transform="translate(646.502377, 165.000000) rotate(-90.000000) translate(-646.502377, -165.000000) translate(641.502377, 162.000000)">
+                <polygon id="Shape" points="9.46710784 0.0138970588 4.99308824 4.47333333 0.519093137 0.0138970588 0 0.534681373 4.99308824 5.51151961 9.98620098 0.534681373"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

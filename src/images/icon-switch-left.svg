@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="15px" viewBox="0 0 26 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-switch-on</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="13" rx="6.5"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="26" height="15">
+            <rect x="-1" y="-1" width="26" height="15" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-92.000000, -90.000000)">
+            <g id="icon-switch-left" transform="translate(93.000000, 91.000000)">
+                <g id="Rectangle-16-Copy">
+                    <use fill="#2251be" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#475066" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                </g>
+                <circle id="Oval-2-Copy" fill="rgba(255, 255, 255, 0.8)" cx="6.5" cy="6.5" r="5.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

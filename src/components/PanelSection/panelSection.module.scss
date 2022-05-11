@@ -1,0 +1,27 @@
+
+@import "../../sass/constants/index";
+
+.title {
+  transition: .2s;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 6px 10px;
+  user-select: none;
+  // FOR ARROW
+  padding-left: 30px;
+  background-position: 12px;
+  background-repeat: no-repeat;
+  background-image: url('../../images/section-arrow-down.svg');
+  // opacity: 0.8;
+  &.closed {
+    background-image: url('../../images/section-arrow-right.svg');
+  }
+  &.collapsible {
+    cursor: pointer;
+    &:hover {
+      opacity: 1
+    }
+  }
+}

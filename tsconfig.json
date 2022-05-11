@@ -24,7 +24,7 @@
     "jsx": "react",          
     "declaration": true,
     "paths": {
-      "packages/": ["src/packages/*"],
+      "packages/": ["src/components/*"],
       "sass/": ["src/sass/*"],
     }
   },
@@ -32,8 +32,8 @@
   "exclude": [
     "node-modules",
     "build",
-    "src/packages/**/tests/*.spec.tsx",
-    "src/packages/**/tests/*.test.tsx",
-    "src/packages/**/stories/*.stories.tsx",
+    "src/components/**/tests/*.spec.tsx",
+    "src/components/**/tests/*.test.tsx",
+    "src/components/**/stories/*.stories.tsx",
   ],
 }

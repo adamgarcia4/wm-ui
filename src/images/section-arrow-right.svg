@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>section-arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PANEL-SUBSECTION-TITLE" transform="translate(-1.000000, -4.000000)" fill="#9699A0">
+            <path d="M9.97321429,5.97321429 L5.97321429,9.97321429 C5.86011848,10.0863101 5.72619125,10.1428571 5.57142857,10.1428571 C5.41666589,10.1428571 5.28273866,10.0863101 5.16964286,9.97321429 L1.16964286,5.97321429 C1.05654705,5.86011848 1,5.72619125 1,5.57142857 C1,5.41666589 1.05654705,5.28273866 1.16964286,5.16964286 C1.28273866,5.05654705 1.41666589,5 1.57142857,5 L9.57142857,5 C9.72619125,5 9.86011848,5.05654705 9.97321429,5.16964286 C10.0863101,5.28273866 10.1428571,5.41666589 10.1428571,5.57142857 C10.1428571,5.72619125 10.0863101,5.86011848 9.97321429,5.97321429 Z" id="section-arrow-right" transform="translate(5.571429, 9.000000) scale(-1, 1) rotate(-270.000000) translate(-5.571429, -9.000000) "></path>
+        </g>
+    </g>
+</svg>

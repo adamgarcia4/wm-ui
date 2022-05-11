@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-nego-current</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="V3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.800000012">
+        <g id="Artboard-3" transform="translate(-89.000000, -138.000000)" fill="#2C323F">
+            <path d="M97.4017857,139.544643 L93.4017857,143.544643 C93.2886899,143.657739 93.1547627,143.714286 93,143.714286 C92.8452373,143.714286 92.7113101,143.657739 92.5982143,143.544643 L88.5982143,139.544643 C88.4851185,139.431547 88.4285714,139.29762 88.4285714,139.142857 C88.4285714,138.988094 88.4851185,138.854167 88.5982143,138.741071 C88.7113101,138.627976 88.8452373,138.571429 89,138.571429 L97,138.571429 C97.1547627,138.571429 97.2886899,138.627976 97.4017857,138.741071 C97.5148815,138.854167 97.5714286,138.988094 97.5714286,139.142857 C97.5714286,139.29762 97.5148815,139.431547 97.4017857,139.544643 Z" id="icon-nego-current" transform="translate(93.000000, 142.571429) scale(-1, 1) rotate(-270.000000) translate(-93.000000, -142.571429) "></path>
+        </g>
+    </g>
+</svg>

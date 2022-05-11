@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="11px" viewBox="0 0 12 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>close-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Front" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal" font-family="EvilIcons" letter-spacing="0.416666657" font-size="20">
+        <g id="Main-Dashboard" transform="translate(-215.000000, -494.000000)" fill="#2C323F">
+            <text id="close-icon">
+                <tspan x="211" y="507"></tspan>
+            </text>
+        </g>
+    </g>
+</svg>

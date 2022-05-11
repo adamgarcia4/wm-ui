@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal" font-family="FontAwesome" letter-spacing="0.291666657" font-size="14">
+        <g id="Main-Dashboard-V2.1" transform="translate(-108.000000, -554.000000)" fill="#2B5FD9">
+            <g id="Group-11" transform="translate(16.000000, 511.000000)">
+                <g id="Group-4">
+                    <g id="Group-2" transform="translate(0.000000, 37.000000)">
+                        <text id="arrow-up" transform="translate(96.500000, 9.000000) scale(1, -1) translate(-96.500000, -9.000000) ">
+                            <tspan x="92" y="14"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
