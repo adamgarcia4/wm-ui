@@ -1,0 +1,41 @@
+@import "../../sass/constants/index";
+@import "../../sass/constants/main";
+@import "../../sass/constants/sizes";
+
+.root {
+  display: block;
+  position: relative;
+	margin: 0 10px;
+	&:first-child {
+		margin-left: 0;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background: url('../../images/search-icon.svg') no-repeat;
+  background-position: calc(100% - 5px);
+  font-size: 12px;
+  line-height: 14px;
+  &.hasValue {
+    background: none;
+  }
+}
+
+.clearButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 6px;
+  opacity: 0.4;
+  height: 14px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
