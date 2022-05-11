@@ -3,6 +3,7 @@ import createReactClass from 'create-react-class'
 // Styling
 import styles from './panelSection.module.scss'
 import cx from "classnames";
+import PropTypes from 'prop-types';
 
 const PanelSection = createReactClass({
   getInitialState() {
