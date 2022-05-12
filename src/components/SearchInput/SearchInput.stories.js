@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import SearchInput from "./SearchInput"
 
 export default {
@@ -6,4 +6,26 @@ export default {
   component: SearchInput,
 }
 
-export const SearchInputStory = () => <div><SearchInput>Panel Section</SearchInput></div>;
+export const SearchInputStory = ({ ...props }) => {
+	const array = ['frontend', 'backend', 'fullstack']
+	const [filter, setFilter] = useState('')
+	
+	const onChange = (e) => {
+		setFilter(e)
+	}
+	
+	return (
+		<div>
+			<SearchInput {...props} onChange={onChange}>Panel Section</SearchInput>
+			{array.map((item) => {
+				if (item.includes(filter)) {
+					return (
+						<div>
+							{item}
+						</div>
+					)
+				}
+			})}
+		</div>
+	) 
+}

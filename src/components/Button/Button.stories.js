@@ -6,4 +6,4 @@ export default {
   component: Button
 }
 
-export const Basic = ({ ...props }) => <Button {...props}>Button</Button>
+export const Basic = ({ ...props }) => <Button {...props}>{props.label}</Button>

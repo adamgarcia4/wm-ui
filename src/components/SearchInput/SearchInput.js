@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from "react"
 import _ from "lodash"
+import PropTypes from 'prop-types';
 // Styles
 import styles from './searchInput.module.scss'
 import cx from 'classnames'
@@ -68,3 +69,14 @@ export default function SearchInput(props = {}) {
 		</div>
 	)
 }
+
+SearchInput.propTypes = {
+  onChange: PropTypes.func,
+	debounce: PropTypes.number,
+}
+
+SearchInput.defaultProps = {
+  onChange: ()=>{},
+	debounce: null,
+};
+

@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import styles from './button.module.scss'
 import PropTypes from 'prop-types';
 
@@ -55,13 +54,15 @@ Button.propTypes = {
 	styleName: PropTypes.oneOf(['primary','secondary','valid','warning','alert', 'primary-light','light','secondary-light','valid-light','warning-light','alert-light','bid','offer','dark','best']),
   onClick: PropTypes.func,
 	debounce: PropTypes.number,
-	disabled: PropTypes.bool
+	disabled: PropTypes.bool,
+	label: PropTypes.string,
 }
 
 Button.defaultProps = {
 	styleName: 'primary',
   onClick: ()=>{},
 	debounce: null,
-	disabled: false
+	disabled: false,
+	label: "Button"
 };
 
