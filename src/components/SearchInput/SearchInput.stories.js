@@ -4,6 +4,13 @@ import SearchInput from "./SearchInput"
 export default {
   title: 'SearchInput',
   component: SearchInput,
+	decorators: [
+    (Story) => (
+      <div style={{ width: 300 }}>
+        <Story />
+      </div>
+    ),
+  ],
 }
 
 export const SearchInputStory = ({ ...props }) => {
@@ -16,11 +23,11 @@ export const SearchInputStory = ({ ...props }) => {
 	
 	return (
 		<div>
-			<SearchInput {...props} onChange={onChange}>Panel Section</SearchInput>
+			<SearchInput {...props} value={filter} onChange={onChange}>Panel Section</SearchInput>
 			{array.map((item) => {
 				if (item.includes(filter)) {
 					return (
-						<div>
+						<div style={{ textAlign: 'center', padding: '10px', fontSize: 16 }}>
 							{item}
 						</div>
 					)
