@@ -72,11 +72,11 @@ export default function SearchInput(props = {}) {
 
 SearchInput.propTypes = {
   onChange: PropTypes.func,
-	debounce: PropTypes.number,
+	withoutDebounce: PropTypes.bool,
 }
 
 SearchInput.defaultProps = {
   onChange: ()=>{},
-	debounce: null,
+	withoutDebounce: false,
 };
 
