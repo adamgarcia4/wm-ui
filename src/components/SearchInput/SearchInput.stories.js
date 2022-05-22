@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import SearchInput from "./SearchInput"
 
 export default {
-  title: 'SearchInput',
+  title: 'Input/SearchInput',
   component: SearchInput,
 	decorators: [
     (Story) => (

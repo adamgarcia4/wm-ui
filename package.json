@@ -1,15 +1,15 @@
 {
-  "name": "thenriquedb-learnstorybook-design-system",
-  "version": "0.1.1",
-  "description": "My first NPM package!",
-  "repository": "git@github.com:thenriquedb/sass-storybook-quickstart.git",
-  "author": "thiago <thenrique2012@gmail.com>",
-  "license": "MIT",
-  "main": "./dist/index.js",
+	"name": "@wematch/wematch-ui",
+  "version": "0.1.0",
+  "description": "Wematch Storybook UI Library",
+  "main": "dist/index.js",
+  "author": "Wematch Dev Team",
+  "license": "ISC",
   "private": false,
+	"repository": "https://github.com/wematch/wematch-ui",
   "dependencies": {
-    "@storybook/addons": "^6.4.22",
-    "@storybook/theming": "^6.4.22",
+    "@storybook/addons": "^6.1.11",
+    "@storybook/theming": "^6.1.11",
     "classnames": "^2.2.6",
     "create-react-class": "^15.7.0",
     "lodash": "^4.17.21"
@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build:css": "node-sass src/ -o src/ --output-style compressed",
-    "build": "tsc --build \"./tsconfig.json\"",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src --max-warnings=0",
@@ -37,18 +37,28 @@
       "last 1 safari version"
     ]
   },
+	"babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
+    ]
+  },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
-    "@storybook/addon-actions": "^6.4.22",
-    "@storybook/addon-essentials": "^6.4.22",
-    "@storybook/addon-links": "^6.4.22",
-    "@storybook/node-logger": "^6.4.22",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/node-logger": "^6.1.11",
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/preset-scss": "^1.0.3",
-    "@storybook/react": "^6.4.22",
-    "@storybook/storybook-deployer": "^2.8.11",
+    "@storybook/react": "^6.1.11",
+    "@storybook/storybook-deployer": "^2.8.7",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
