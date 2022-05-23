@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import SearchInput from "./SearchInput"
+import SearchInput from "./index"
 
 export default {
   title: 'Input/SearchInput',
