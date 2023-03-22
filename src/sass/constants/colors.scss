@@ -1,3 +1,4 @@
+// COLORS
 $color-text: #2D3240;
 $color-text-light: #ffffff;
 $color-text-light-grey: #e4e4e5;
@@ -10,12 +11,14 @@ $color-ghost: #ffc0fc;
 $color-text-darkgrey: #606060;
 $color-bid-wd1: #63c181;
 $color-offer-wd1: #ed4b4e;
+$color-price-wd1: #FFE509;
 $color-you-wd1: #83C2FD;
 
 $color-border: rgba(#000000, 0.17);
+$color-border-new: #EAECF0;
 $color-border-subtle: rgba(#000000, 0.08);
-$color-border-light: rgba(#FFFFFF, 0.17);
-$color-border-light-subtle: rgba(#FFFFFF, 0.08);
+$color-border-light: rgba($color-text-light, 0.17);
+$color-border-light-subtle: rgba($color-text-light, 0.08);
 
 $color-border-on-light: #E1E2E6;
 $color-border-on-dark: #34363d;
@@ -27,20 +30,20 @@ $color-table-border-grey: #575B66;
 $color-table-border-blue: #26365A;
 $color-table-bg-dark: #141a27;
 $color-bg-dark: #172036;
-$color-fg-light: #ffffff;
+$color-fg-light: $color-text-light;
 // $color-fg-dark: #eeeff1;
 $color-fg-dark: #ececee;
 $color-fg-darker: #E1E2E6;
 
 $color-input-invalid: #FFD3D3;
 
-$color-primary: #2B5FD9;
+$color-primary: #2271E9;
 $color-secondary: #F2F4F7;
-// $color-valid: #14CC70;
-$color-valid: #0ac266;
+$color-valid: #14CC70;
+// $color-valid: #0ac266;
 $color-you: #00E097;
 $color-price: #FDC200;
-$color-warning: #ff9d00;
+$color-warning: #ff9E09;
 // $color-updated: #33cc99;
 $color-updated: yellow;
 $color-private: #633a96;
@@ -51,10 +54,26 @@ $color-alert: #FF0928;
 // NEW
 $color-main: #293B66;
 $color-bg: #41495a;
-$color-fg: #FFFFFF;
+$color-fg: $color-text-light;
 $color-low: #D92B2B;
 $color-hidden-room: #2d1656;
 
 // New 2020
 $color-2020-border: #eef1f6;
 $color-2020-table-border: #cdd6e5;
+
+// New 2023
+$color-grey-light: #98A2B3;
+$color-grey-dark: #667085;
+$color-menu-text: #344054;
+$color-red-bg-notif: #FEE4E2;
+$color-green-bg-notif: #A6F4C5;
+$color-blue-bg-notif: #CADFFF;
+$color-blue-new: #1657BB;
+$color-light-blue-new: #E6F0FF;
+$color-light-bg-blue: #E5F0FF;
+$color-green-new: #10A35A;
+$color-green-dark-new: #027A48;
+$color-border-light-new: #D0D5DD;
+$color-hover-new: #475467;
+$color-warning-text-new: #b54708;

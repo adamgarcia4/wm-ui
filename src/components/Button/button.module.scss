@@ -1,3 +1,4 @@
+
 @import "../../sass/constants/colors";
 
 .root {
@@ -7,7 +8,7 @@
   padding: 5px 0.825em;
   min-width: 2em;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 6px;
   border: 1px solid $color-border;
   color: $color-text-light;
   cursor: pointer;
@@ -34,7 +35,6 @@
   @extend .root;
   border: 1px solid $color;
   background: rgba($color, 0.1);
-  // color: $color;
   &:not(.disabled):hover {
     background: rgba($color, 0.3);
     transition: 0.1s;
@@ -93,4 +93,24 @@
 .disabled {
   cursor: auto;
   opacity: 0.5;
+}
+
+.debounced {
+  background-image: url('images/spinner_transparent.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.8;
+}
+
+.primary, .valid, .warning, .alert {
+  &.debounced {
+    color: rgba($color-text-light, 0.5);
+  }
+}
+
+.secondary {
+  &.debounced {
+    color: rgba($color-text, 0.5);
+  }
 }

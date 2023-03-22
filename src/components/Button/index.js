@@ -1,21 +1,32 @@
+import React, {
+	useState,
+	useEffect,
+} from 'react'
+
+// Styles
 import styles from './button.module.scss'
-import PropTypes from 'prop-types';
-
-import React, { useState, useEffect } from 'react'
 import cx from 'classnames'
+import PropTypes from 'prop-types'
 
-export const Button = ({
-	styleName,
-	className,
-	disabled,
-	style,
-	children,
-	onClick,
-	debounce,
-}) => {
-	const [isDebounced, setIsDebounced] = useState(false)
-	const [timeoutId, setTimeoutId] = useState(null)
+
+export const Button = (props) => {
+	const {
+		style,
+		onClick,
+		children,
+		debounce,
+		disabled,
+		className,
+		styleName,
+		onMouseEnter,
+		onMouseLeave,
+	} = props
+
+	const [ timeoutId, setTimeoutId ] = useState(null)
+	const [ isDebounced, setIsDebounced ] = useState(false)
+
 	const isDisabled = disabled || isDebounced
+
 	useEffect(() => {
 		return () => {
 			clearTimeout(timeoutId)
@@ -40,19 +51,23 @@ export const Button = ({
 			className={cx(
 				styles?.[styleName] || styles.secondary,
 				className,
-				isDisabled && styles.disabled
+				isDisabled && styles.disabled,
+				isDebounced && styles.debounced
 			)}
 			style={style}
+			onMouseEnter={onMouseEnter}
+			onMouseLeave={onMouseLeave}
 		>
 			{children}
 		</button>
 	)
 }
 
-
 Button.propTypes = {
 	styleName: PropTypes.oneOf(['primary','secondary','valid','warning','alert', 'primary-light','light','secondary-light','valid-light','warning-light','alert-light','bid','offer','dark','best']),
   onClick: PropTypes.func,
+  onMouseEnter: PropTypes.func,
+  onMouseLeave: PropTypes.func,
 	debounce: PropTypes.number,
 	disabled: PropTypes.bool,
 	label: PropTypes.string,
@@ -63,6 +78,7 @@ Button.defaultProps = {
   onClick: ()=>{},
 	debounce: null,
 	disabled: false,
-	label: "Button"
-};
-
+	label: "Button",
+	onMouseEnter: ()=>{},
+	onMouseLeave: ()=>{}
+}
